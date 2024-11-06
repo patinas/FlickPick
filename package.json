@@ -1,0 +1,21 @@
+{
+  "name": "stremio-tmdb-similar",
+  "version": "1.0.0",
+  "description": "Stremio addon for TMDb movie recommendations",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "stremio-addon-sdk": "^1.6.10",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
